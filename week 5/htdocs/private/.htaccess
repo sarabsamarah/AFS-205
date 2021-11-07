@@ -1,9 +1,6 @@
-
-Options +Indexes
-
-
+<Directory "./PRIVATE">
 AuthType Basic
 AuthName "RESTRICTED ACCESS."
-AuthUserFile /Users/sarabsamarah/Desktop/Dev/BryanU/bryan-u/AFS-205/week 5/htdocs/private/.htpasswd
+AuthUserFile "/PRIVATE/INDEX.HTML"
 require valid-user
-ErrorDcoument 401 "Authorization Required"
+</Directory>
