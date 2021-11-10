@@ -1,5 +1,5 @@
 
 AuthType Basic
 AuthName "RESTRICTED ACCESS."
-AuthUserFile /Users/sarabsamarah/Desktop/Dev/BryanU/bryan-u/AFS-205/week5/conf/.htpasswd
+AuthUserFile /usr/local/apache2/conf/.htpasswd
 require valid-user
