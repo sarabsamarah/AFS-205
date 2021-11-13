@@ -1,0 +1,10 @@
+* {
+    background-color: coral;
+    color: black;
+}
+
+li {
+    list-style: circle;
+    
+    font-size: 25px;
+}

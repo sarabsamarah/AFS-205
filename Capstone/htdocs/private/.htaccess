@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "RESTRICTED ACCESS."
+AuthUserFile /usr/local/apache2/conf/.htpasswd
+require valid-user
